@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Word Counter</string>
+
+    <!-- Labels / prompts -->
+    <string name="label_input_text">Enter text</string>
+    <string name="label_spinner_prompt">Choose metric</string>
+    <string name="button_count">Count</string>
+    <string name="label_result">Result</string>
+    <string name="toast_empty_input">Please enter some text</string>
+
+    <!-- Result formatting: MetricName: Count -->
+    <string name="result_format">%1$s: %2$d</string>
+
+    <!-- Spinner items -->
+    <string-array name="metrics_array">
+        <item>Sentences</item>
+        <item>Words</item>
+        <item>Chars</item>
+        <item>Numbers</item>
+    </string-array>
+</resources>
